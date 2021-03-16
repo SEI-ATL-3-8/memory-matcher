@@ -1,0 +1,13 @@
+What does the MVP of this game look like?
+
+
+Put the elements of this project into priority order, and draw a line separating the core goals from the stretch goals.
+
+
+Fix the not-specific-enough user stories from the readme here:
+
+
+Convert your list of game goals into discrete user stories. User stories should roughly be in the form of: "When I <do x>, I see <y thing happening>"
+
+
+What pieces of game state will we need for this game?
