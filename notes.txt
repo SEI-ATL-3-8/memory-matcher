@@ -1,10 +1,44 @@
 What does the MVP of this game look like?
+- grid of cards
+- smallest possible: 4, enough to show the 2 possible outcomes of match / no-match
+- each card has an image, but at first they all appear hidden
+- all cards start with the same face-down image
+- there are 2 copies of each image, therefore the total number of different images is half of the total number of cards
+- they could have letters or numbers instead of images, then the backside of the cards could be designated with a ? or something
+- there should only ever be 2 cards face-up in play at a time
+- every first click starts a round, every second second click ends the round. after the round, we check the condition
+- when you click on a card, IF it's the first one for the round, it stays up for the rest of the round
+- when you click on a card, IF it's the second one for the round, you compare it to the first one
+  - IF they match, leave em face up
+  - IF they don't turn em face down
+- when they're all face up, you win
+- timer & moves counter could make you lose, BUT these don't have to be in mvp
+- reset button should put them all face down (maybe randomize again?), BUT not mvp
+- start button would be nice, but not mvp
+- shuffling the images is post-mvp
+
 
 
 Put the elements of this project into priority order, and draw a line separating the core goals from the stretch goals.
 
+- make the grid
+- display them face down
+- when I click on a card it turns face up
+- if they match they stay up
+============
+- shuffle the cards
+- reset button
+
+
+
+
+
+
 
 Fix the not-specific-enough user stories from the readme here:
+When I load the page, I see 12 cards in a 3x4 grid face-down / blank
+
+
 
 
 Convert your list of game goals into discrete user stories. User stories should roughly be in the form of: "When I <do x>, I see <y thing happening>"
